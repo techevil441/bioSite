@@ -11,4 +11,8 @@
     </ul>
     <p>This is a bio website containing 3 pages about my wife, Kathy Tracy.</p>
   </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 0eced2d204b4c3e31ca613bc49860cbff33d1afb
