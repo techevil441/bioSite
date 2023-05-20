@@ -3,12 +3,26 @@
     position: relative;
   }
   
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
   .header-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
   
+  .topbuttons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
   h1 {
     font-size: 72px;
     font-family: Copperplate, Copperplate Gothic Bold, sans-serif;
@@ -111,7 +125,7 @@
   
   .button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 2% 4%;
     background-color: #6b6ea1;
     color: white;
     text-align: center;
